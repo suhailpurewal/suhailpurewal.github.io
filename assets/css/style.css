@@ -1,0 +1,114 @@
+/* teal name */
+#name {
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 240px;
+	height: 50px;
+	position: relative;
+	left: 40px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 30px;
+}
+/*about heading*/
+#about {
+	color: #4aaaa5;
+}
+/*bio paragraph*/
+p {
+	color: #777777;
+}
+/*bio block*/
+#main-bio {
+	display: block;
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	float: left;
+	padding-left: 20px;
+	margin-left: 75px; 
+	margin-right:75px;
+}
+/*top line*/
+#top-line {
+	border-color: black;
+	border-width: 1px;
+	position: relative;
+	top: -46px;
+}
+/*bio pic*/
+#bio-image {
+	float: left;
+}
+/*contact info box*/
+#contact-info {
+	color: #4aaaa5;
+	float: right;
+	display: block;
+	background-color: white;
+	size: 250px;
+	position: absolute;
+	right: 180px;
+	top: 200px;
+}
+/*links in contact box*/
+#links {
+	color: #777777;	
+}
+/*Body - background image*/
+body {
+	background-image: url("../images/hypnotize.png");
+}
+/*footer*/
+footer {
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: -45px;
+	clear: both;
+	color: white;
+	display: block;
+	height: 15px;
+	width: 100%;
+	background-color: grey;
+	padding-top: 15px;
+}
+#linkedin
+{
+	size: 75px 75px 75px 75px;
+}
+/* Style the header */
+.header {
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 250px;
+    padding: 0px;
+    text-align: right;
+    position: relative;
+    top: -40px;
+    left: 665px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #4aaaa5;
+    color: black;
