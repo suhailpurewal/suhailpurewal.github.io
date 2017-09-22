@@ -6,109 +6,365 @@
 	width: 240px;
 	height: 50px;
 	position: relative;
-	left: 40px;
+	left: 75px;
 	text-align: center;
 	padding-top: 20px;
-	font-size: 30px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#header {
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	width: 100%;
+	height: 70px;
+	background-color: white;
 }
 /*about heading*/
 #about {
 	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 /*bio paragraph*/
 p {
 	color: #777777;
+	line-height: 30px;
+	margin-right: 25px;
 }
 /*bio block*/
 #main-bio {
 	display: block;
 	background-color: white;
-	width: 500px;
-	height: 500px;
-	float: left;
+	width: 650px;
+	height: 475px;
 	padding-left: 20px;
 	margin-left: 75px; 
 	margin-right:75px;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 /*top line*/
 #top-line {
-	border-color: black;
-	border-width: 1px;
-	position: relative;
-	top: -46px;
+	/* border-color: black; */
+	/* border-width: 1px; */
+	/* position: relative; */
+	/* top: -46px; */
+}
+#aboutline {
+	width: 95%;
+	margin-left: 0px;
+}
+#connectline {
+	width: 75%;
+	margin-left: 30px;
 }
 /*bio pic*/
 #bio-image {
 	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
 }
 /*contact info box*/
 #contact-info {
 	color: #4aaaa5;
-	float: right;
 	display: block;
+	font-size: 20px;
 	background-color: white;
-	size: 250px;
-	position: absolute;
-	right: 180px;
-	top: 200px;
+	height: 200px;
+	width: 268px;
+	position: relative;
+	right: -796px;
+	top: -477px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#connectwme {
+	padding-top: 33px;
+	padding-bottom: 15px;
 }
 /*links in contact box*/
 #links {
 	color: #777777;	
+	/* padding-left: 50px; */
+	padding-top: 15px;
+	margin-left: 2px;
+}
+#linkedin {
+	float: left;
+	padding-left: 30px;
+
+}
+#github {
+	float: left;
+	padding-left: 10px;
+}
+#stackoverflow {
+	float: left;
+	padding-left: 10px;
+	width: 60px;
+	height: 60px;
+
 }
 /*Body - background image*/
 body {
-	background-image: url("../images/hypnotize.png");
+	background-image: url("../images/paper.png");
 }
 /*footer*/
 footer {
 	text-align: center;
-	padding: 10px;
 	position: relative;
 	bottom: -45px;
 	clear: both;
 	color: white;
 	display: block;
-	height: 15px;
+	height: 40px;
 	width: 100%;
 	background-color: grey;
 	padding-top: 15px;
+	border-top-style: solid;
+	border-width: 7px;
+	border-color: #4aaaa5;
+	font-size: 11px;
 }
 #linkedin
 {
 	size: 75px 75px 75px 75px;
 }
-/* Style the header */
+/* header style*/
 .header {
     background-color: white;
     color: black;
-    height: 35px;
-    width: 250px;
     padding: 0px;
+    width: 0%;
     text-align: right;
     position: relative;
-    top: -40px;
+    top: -58px;
     left: 665px;
 }
-
-/* Style the top navigation bar */
+/* top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: transparent;
+    width: 320px;
+    margin-left: 780px;
+    margin-top: -50px;
 }
 
-/* Style the topnav links */
+/* topnav links */
 .topnav a {
     float: left;
     display: block;
     color: #777777;
+    font-size: 16px;
     text-align: center;
-    padding: 10px 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px 5px;
+    padding-right: 32px;
     text-decoration: none;
     background-color: transparent;
 }
 
-/* Change color on hover */
+/* color on hover */
 .topnav a:hover {
     background-color: #4aaaa5;
     color: black;
+}
+/*CONTACT ME PAGE*/
+
+.contactform {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#nameform {
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#emailform {
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#messageform {
+	width: 600px;
+	height: 210px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Portfolio Page*/
+#portfolio {
+	display: block;
+	background-color: white;
+	width: 650px;
+	height: 800px;
+	padding-left: 20px;
+	margin-left: 75px; 
+	margin-right:75px;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	z-index: -2;
+}
+#portcontact {
+	color: #4aaaa5;
+	display: block;
+	font-size: 20px;
+	background-color: white;
+	height: 200px;
+	width: 268px;
+	position: relative;
+	right: -796px;
+	top: -804px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#hangman {
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+#triviagame {
+	position: relative;
+	float: left;
+	padding: 20px;
+
+}
+#rockpaper {    
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+#rutgers {
+	position: relative;
+	float: left;
+	padding: 20px;
+
+}
+#rpg {    
+    position: relative;
+    float: left; 
+    padding: 20px;
+}
+
+#bhangman{	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 275px;
+	height: 50px;
+	margin-left: 25px;
+	position: absolute;
+	top: 160px;
+	left: -5px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+#btrivia{	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 275px;
+	height: 50px;
+	position: absolute;
+	top: 160px;
+	right: 40px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+#brock {	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 275px;
+	height: 50px;
+	position: absolute;
+	top: 395px;
+	left: 20px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+#brutgers {	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 275px;
+	height: 50px;
+	position: absolute;
+	top: 395px;
+	right: 40px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+#brpg {	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 275px;
+	height: 50px;
+	position: absolute;
+	top: 635px;
+	left: 20px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+.divhangman {
+	position: relative;
+
+}
+.divtrivia {
+	position: relative;
+
+}
+.divrock {
+	position: relative;
+
+}
+.divrut {
+	position: relative;
+
+}
+.divrpg {
+	position: relative;
+
+}
+
+
+
+
