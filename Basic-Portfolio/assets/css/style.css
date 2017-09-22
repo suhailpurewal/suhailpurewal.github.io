@@ -280,9 +280,8 @@ footer {
 	top: 160px;
 	left: -5px;
 	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 #btrivia{	
@@ -296,9 +295,8 @@ footer {
 	top: 160px;
 	right: 40px;
 	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 #brock {	
@@ -312,10 +310,8 @@ footer {
 	top: 395px;
 	left: 20px;
 	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #brutgers {	
 	background-color: #4aaaa5;
@@ -328,9 +324,8 @@ footer {
 	top: 395px;
 	right: 40px;
 	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 #brpg {	
@@ -344,9 +339,8 @@ footer {
 	top: 635px;
 	left: 20px;
 	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 .divhangman {
