@@ -63,6 +63,9 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
+.nav-link a:hover {
+  color: #BD5D38;
+}
 
 @media (min-width: 992px) {
   #sideNav {
